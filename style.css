@@ -1,0 +1,249 @@
+body{
+    background: url(./shara\ desert.jpg) no-repeat;
+    height: 100%;
+    
+ 
+}
+.logo{
+    text-align: right;
+    margin-right: 40px;
+    margin-top: 20px;
+}
+.ham{
+    border: 1px solid black;
+    border-radius: 50%;
+    width: 43px;
+    height: 28px;
+    text-align: center;
+    padding-top: 9px;
+    background-color: rgb(224, 205, 182);
+    opacity: 0.5;
+}
+.one{
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    margin-top: -20px;
+    list-style-type: none;
+    word-spacing: 35px;
+}
+.top.hover{
+    cursor: pointer;
+    
+}
+.top{ margin-left: 70%;
+    font-size: larger;
+    font-weight: bold;
+    
+}
+.top:hover{
+    cursor: pointer;
+}
+.logo2{position: absolute;
+    display: flex;
+    margin-left: 10%;
+    
+   
+}
+.logo2:hover{
+    cursor: pointer;
+}
+
+   /* ./Sahara bar start/. */
+
+p{
+    color: azure;
+    
+}
+.button{
+    width: 150px;
+    height: 35px;
+    border: 1px solid black;
+    border-radius: 25px;
+    margin-left: 40px;
+    margin-top: 30px;
+    font-family:'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+.sahara{
+    color: azure;
+    font-size: 80px;
+    
+}
+.text{
+    margin-top: 150px;
+    margin-left: 100px;
+    width: 480px;
+}
+.sub{
+   margin-top: -50px;
+}
+
+/* ./grid started/. */
+
+.container{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    width: 500px;
+    height: 500px;
+    left: 700px;
+    top: -338px;
+    
+
+
+
+}
+.child{
+    border-radius: 25px;
+    text-align: center;
+    padding-top: 25px;
+    color: azure;
+    transition: all 0.4s ease-in-out  ;
+}
+.child:hover{
+    transform:translateY(-20px);
+    cursor: pointer;
+}
+.onee{
+    font-size: larger;
+    border: 1px solid black;
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    left: 280px;
+    background-image: url(./pic-2.png);
+   
+}
+.two{
+    font-size: larger;
+    border: 1px solid black;
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    background: url(./pic.png)
+
+}
+.three{
+    font-size: larger;
+    border: 1px solid black;
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    top: 250px;
+    background-image: url(./pic-3.png);
+}
+.four{
+    font-size: larger;
+    border: 1px solid black;
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    top: 250px;
+    left: 280px;
+    background-image: url(./pic-4.png);
+
+}
+
+  /* ./PHONE VIEW START./ */
+
+  @media (max-width:768px) and (min-width:150px){
+    .one{
+     display: flex;
+    flex-direction: row;
+    position: absolute;
+    margin-top: 5px;
+    margin-left: -64px;
+    list-style-type: none;
+    word-spacing: 35px; 
+    }
+    body{
+    background: url(./shara\ desert.jpg);
+    height: 100%;
+    }
+    .onee{
+    font-size: larger;
+    border: 1px solid black;
+    width: 400px;
+    height: 200px;
+    position: absolute;
+    left: -270px;
+    top: 600px;
+    background-image: url(./pic-2.png);
+
+    }
+    .two{
+    font-size: larger;
+    border: 1px solid black;
+    width: 400px;
+    height: 200px;
+    position: absolute;
+    left: -270px;
+    top: 300px;
+    background: url(./pic.png)
+    }
+    .three{
+    font-size: larger;
+    border: 1px solid black;
+    width: 400px;
+    height: 200px;
+    position: absolute;
+    top: 900px;
+    left: -270px;
+    background-image: url(./pic-3.png);
+    }
+    .four{
+        font-size: larger;
+        border: 1px solid black;
+        width: 400px;
+        height: 200px;
+        position: absolute;
+        top: 1200px;
+        left: -270px;
+        background-image: url(./pic-4.png);
+    }
+    .text{
+        margin-top: 167px;
+        margin-left: 120px;
+        width: 780px;
+        font-size: 30px;
+
+    }
+    .button{
+        width: 220px;
+        height: 55px;
+        border: 1px solid black;
+        border-radius: 25px;
+        margin-left: 89px;
+        margin-top: 30px;
+        font-family:'Times New Roman', Times, serif;
+        font-size: 30px;
+    }
+    .logo2{position: absolute;
+        display: flex;
+        margin-left: 136px;
+        margin-top: -66px;
+        width: 127px;
+        height: 86px;
+        
+       
+    }
+    .ham{
+        border: 1px solid black;
+        border-radius: 50%;
+        width: 43px;
+        height: 28px;
+        text-align: center;
+        padding-top: 9px;
+        background-color: rgb(224, 205, 182);
+        opacity: 0.5;
+        left: 958px;
+        position: absolute;
+    } 
+    .top{ margin-left: 85%;
+        margin-top: -83px;
+        font-size: larger;
+        font-weight: bold;
+        
+    }
+  }
